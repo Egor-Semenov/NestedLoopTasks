@@ -19,7 +19,7 @@ namespace Task3
             {
                 for (int secondFactor = 1; secondFactor <= tableSize; secondFactor++)
                 {
-                    Console.Write(firstFactor * secondFactor + "  ");
+                    Console.Write(firstFactor * secondFactor + " ");
                 }
 
                 Console.WriteLine("");
