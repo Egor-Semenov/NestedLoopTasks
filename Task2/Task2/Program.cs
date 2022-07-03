@@ -26,7 +26,7 @@ namespace Task2
 
                 simple = true;
 
-                for (int checkSimple = 2; checkSimple < array[index]; checkSimple++)
+                for (int checkSimple = 2; checkSimple <= array[index] / 2; checkSimple++)
                 {
                     if (array[index] % checkSimple == 0)
                     {
